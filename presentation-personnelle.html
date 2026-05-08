@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Présentation personnelle – Paul GUEDON</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__logo"><span>PG</span> Paul GUEDON</a>
+      <div class="navbar__links" id="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="presentation-personnelle.html" class="active">Présentation</a>
+        <a href="bts-sio.html">BTS SIO</a>
+        <a href="entreprise.html">Entreprise</a>
+        <a href="activites.html">Activités</a>
+        <a href="veille.html">Veille</a>
+      </div>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="page-header__bg"></div>
+    <div class="container page-header__inner">
+      <div class="section-label fade-up">À propos de moi</div>
+      <h1 class="page-header__title fade-up fade-up-1">Présentation personnelle</h1>
+      <p class="page-header__sub fade-up fade-up-2">Mon parcours, mon alternance chez CUBE et les compétences
+        développées en deux ans de BTS SIO SISR.</p>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- INTRO + TIMELINE -->
+  <section>
+    <div class="container">
+      <div class="two-col two-col--center">
+
+        <div class="reveal">
+          <div class="section-label">Parcours</div>
+          <h2 class="section-title" style="font-size:1.9rem;">Mon histoire</h2>
+          <p style="color: var(--text-muted); line-height: 1.7; margin-bottom: 28px; text-align: justify;">
+            Intéressé par l'informatique, j'ai dans un premier temps choisi de faire un <strong
+              style="color:var(--text);">BAC professionnel SN (Système Numérique)</strong> qui m'a plu. J'ai ensuite
+            intégré un BTS SIO dans le centre de formation de la <strong style="color:var(--text);">Faculté des Métiers
+              de l'Essonne</strong>.
+          </p>
+          <p style="color: var(--text-muted); line-height: 1.7; margin-bottom: 28px; text-align: justify;">
+            Convaincu que l'échange avec les professionnels était à la fois enrichissant et formateur, j'ai choisi
+            l'alternance. Je travaille dans la société <strong style="color:var(--text);">Cube à Champlan</strong>
+            depuis septembre 2024 au sein de l'équipe informatique, au service de nos clients. Ce choix m'a totalement
+            satisfait.
+          </p>
+          <a href="CV_Paul_GUEDON.pdf" target="_blank" download="CV_Paul_GUEDON.pdf" class="btn btn--primary">📄
+            Télécharger mon CV</a>
+        </div>
+
+        <div class="reveal delay-2">
+          <div class="card" style="padding: 32px;">
+            <div class="section-label" style="margin-bottom:24px;">Cursus scolaire</div>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-year">2025 / 2026</div>
+                <div class="timeline-content">
+                  <strong>2ème Année de BTS SIO</strong>
+                  Faculté des Métiers de l'Essonne
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-year">2024 / 2025</div>
+                <div class="timeline-content">
+                  <strong>1ère Année de BTS SIO</strong>
+                  Faculté des Métiers de l'Essonne
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-year">2021 / 2024</div>
+                <div class="timeline-content">
+                  <strong>BAC Pro Système Numérique</strong>
+                  La Salle Saint-Nicolas, Issy-les-Moulineaux
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- MISSIONS EN ALTERNANCE -->
+  <section class="section--dark">
+    <div class="container">
+      <div class="text-center mb-48 reveal">
+        <div class="section-label">Alternance chez CUBE</div>
+        <h2 class="section-title">Missions réalisées au cours<br>de mes deux années de formation</h2>
+      </div>
+
+      <div class="grid-2">
+
+        <div class="card reveal delay-1" style="border-top: 3px solid var(--accent);">
+          <h4 class="card__title" style="font-size:0.95rem; margin-bottom:16px;">🖥️ Support et assistance aux
+            utilisateurs</h4>
+          <ul
+            style="color: var(--text-muted); font-size: 0.875rem; line-height: 1.9; padding-left: 16px; list-style: disc;">
+            <li>Configuration et préparation de postes informatiques</li>
+            <li>Installation et configuration d'imprimantes</li>
+            <li>Gestion des sessions à distance</li>
+            <li>Détection et diagnostic de pannes réseau chez les clients</li>
+          </ul>
+        </div>
+
+        <div class="card reveal delay-2" style="border-top: 3px solid var(--green);">
+          <h4 class="card__title" style="font-size:0.95rem; margin-bottom:16px;">⚙️ Administration systèmes et comptes
+          </h4>
+          <ul
+            style="color: var(--text-muted); font-size: 0.875rem; line-height: 1.9; padding-left: 16px; list-style: disc;">
+            <li>Création de sessions Active Directory et adresses mail</li>
+            <li>Gestion des comptes Microsoft 365 (Outlook, messagerie, administration)</li>
+            <li>Mise en place et activation de la double authentification (2FA)</li>
+          </ul>
+        </div>
+
+        <div class="card reveal delay-3" style="border-top: 3px solid var(--orange);">
+          <h4 class="card__title" style="font-size:0.95rem; margin-bottom:16px;">📋 Gestion administrative et matériel
+          </h4>
+          <ul
+            style="color: var(--text-muted); font-size: 0.875rem; line-height: 1.9; padding-left: 16px; list-style: disc;">
+            <li>Gestion des tickets et suivi des incidents</li>
+            <li>Suivi des bons de commande et préparation du matériel</li>
+          </ul>
+        </div>
+
+        <div class="card reveal delay-4" style="border-top: 3px solid #b45cf7;">
+          <h4 class="card__title" style="font-size:0.95rem; margin-bottom:16px;">💾 Gestion du parc informatique</h4>
+          <ul
+            style="color: var(--text-muted); font-size: 0.875rem; line-height: 1.9; padding-left: 16px; list-style: disc;">
+            <li>Suivi et maintenance du parc informatique</li>
+          </ul>
+        </div>
+
+        <div class="card reveal delay-1" style="border-top: 3px solid #ec4899;">
+          <h4 class="card__title" style="font-size:0.95rem; margin-bottom:16px;">📞 Téléphonie et communication</h4>
+          <ul
+            style="color: var(--text-muted); font-size: 0.875rem; line-height: 1.9; padding-left: 16px; list-style: disc;">
+            <li>Installation et paramétrage de téléphones Yealink sous 3CX (changement et mise en service)</li>
+            <li>Gestion du parc téléphonique 3CX/OVH :
+              <ul style="padding-left: 16px; list-style: circle; margin-top: 4px;">
+                <li>Modification d'horaires de bureau</li>
+                <li>Gestion et modification des lignes</li>
+                <li>Configuration des files d'attente et des messages vocaux</li>
+                <li>Remplacement de téléphones et bornes (DECT)</li>
+                <li>Configuration des numéros de transfert et listes d'appels</li>
+                <li>Préparation et réinitialisation d'appareils</li>
+              </ul>
+            </li>
+            <li>Gestion des lignes téléphoniques (OVH, Unyc, recharge 4G)</li>
+          </ul>
+        </div>
+
+        <div class="card reveal delay-2" style="border-top: 3px solid #06b6d4;">
+          <h4 class="card__title" style="font-size:0.95rem; margin-bottom:16px;">🌐 Réseaux</h4>
+          <ul
+            style="color: var(--text-muted); font-size: 0.875rem; line-height: 1.9; padding-left: 16px; list-style: disc;">
+            <li>Test et numérotation des prises Ethernet chez des nouveaux clients</li>
+            <li>Préparation, configuration, installation et remplacement d'équipements réseaux (routeurs, bornes Wi-Fi,
+              switchs, routeurs 4G…)</li>
+            <li>Création et gestion de comptes VPN (OpenVPN, ZyWALL SecuExtender)</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CITATION -->
+  <section style="padding: 60px 0;">
+    <div class="container">
+      <div class="quote-block reveal text-center">
+        <p>"Sécuriser, optimiser, accompagner."</p>
+        <cite>— CUBE, Champlan 91160</cite>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__copy">© 2025–2026 Paul GUEDON — Portfolio BTS SIO SISR</div>
+        <div class="footer__links">
+          <a href="index.html">Accueil</a>
+          <a href="activites.html">Projets</a>
+          <a href="veille.html">Veille</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
